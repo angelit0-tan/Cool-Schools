@@ -1,0 +1,43 @@
+
+
+#status{
+	width:90%;
+	padding:10px;
+	height:40px;
+	outline:none;
+	overflow: auto;
+}
+
+#status2{
+	width:100%;
+	height:80px;
+	outline:none;
+	overflow: auto;
+	font:normal normal normal 12px/18px Arial, Helvetica, sans-serif;
+}
+
+.focusField{
+	color:#000;
+}
+
+
+.idleField{
+	background:#EEE;
+	color: #6F6F6F;
+	border: solid 2px #DFDFDF;
+}
+
+.idleComment{
+	color: #646D7E;
+	background-color: white;
+	border: solid 2px #DFDFDF;
+	font-size: 11px; 
+	width: 95%; 
+	height: 20px; 
+	margin-top: 3px; 
+	border:1px solid; 
+	border-color: #C4DBD4 #C4DBD4 #C4DBD4 #DBDBDB;
+}
+.focusComment{
+	color: black;
+}

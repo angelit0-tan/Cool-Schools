@@ -1,0 +1,251 @@
+
+	
+
+a, a:link, a:visited, a:active, a:focus {
+	color: #336699;
+	text-decoration: none;
+}
+div{
+	font-family: tahoma;
+}
+a:hover {
+	color: #f36e2c;
+	/*text-decoration: none;*/
+	text-decoration: underline;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	background-color: #edeeee;
+	color: #7d7b7b;
+	font-family: "Lucida Grande",sans-serif;
+	font-size: 12px;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.site {
+	background-color: #ffffff;
+	height: 100%;
+	margin: auto;
+	padding: 0;
+	position: relative;
+	text-align: justify;
+	width: 975px;
+}
+
+.site-header {
+	overflow: hidden;
+	padding: 10px;
+	height:224px;
+	position:absolute;
+	left:0;
+	width:990px;
+}
+
+.site-hold-menu-position{
+	position: absolute;
+	margin-left: 250px;
+}
+
+.site-user-log-text{
+	position:absolute;
+	margin-left: 20px;
+	margin-top: 14px;
+}
+
+.site-header-menu {
+	position:absolute;
+	background-image: url(../images/header/menu.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	height: 47px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 190px;
+	width: 935px;
+}
+
+.site-header-menu-text {
+	font-size: 14px;
+	color: #3c5160;
+	padding: 0 15px;
+}
+
+.site-header-menu-text a {
+	color: #3c5160;
+	display: inline-block;
+	height: 19px;
+	margin-left: 15px;
+	padding: 14px 12px;
+}
+
+.site-header-menu-text a:hover {
+	background-color: #89caf7;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.site-body-sidebar {
+	border-right: 1px solid #dddddd;
+	float: left;
+	padding-left: 4px;
+	width: 260px;	
+}
+
+.site-body-sidebar_profile {
+	border-right: 1px solid #dddddd;
+	float: left;
+	padding-left: 5px;
+	width: 184px;	
+}
+
+.side-block{
+	margin-top: 2px;
+}
+.sidebar-block {
+	background-color: #ffffff;
+	border-top: 1px solid #dddddd;
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	width: 250px;
+}
+
+
+.sidebar-block:hover {
+	background-color: #E0FFFF;
+	text-decoration: none;
+}
+
+.sidebar-block_profile {
+	background-color: #ffffff;
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	width: 183px;
+	cursor: pointer;
+}
+
+.sidebar-block_profile:hover {
+	background-color: #E0FFFF;
+	text-decoration: none;
+}
+
+.sidebar-block-image_profile {
+	margin-left: 3px;
+	float: left;
+	margin-top: 1px;
+}
+
+.sidebar-block-image {
+	float: left;
+	margin-top: 12px;
+	border-style: none;
+}
+
+.sidebar-block-text {
+	/*color: #7d7b7b;*/
+	float: right;
+	font-size: 11px;
+	margin-top: 7px;
+	width: 210px;
+	
+}
+
+.sidebar-block-text_profile {
+	/*color: #7d7b7b;*/
+	margin-left: 5px;
+	font-size: 11px;
+	
+}
+
+
+.sidebar-block-title {
+	/*color: #000000;*/
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.login-content{
+	height:290px;
+	background-image: url(../images/header/login.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	margin-top: -5px;
+	margin-left: -14px;
+	width: 300px;
+}
+
+.login-area{
+	
+}
+.login{
+	background-image: url(../images/header/login-menu.png);
+	background-repeat: no-repeat;
+	height: 37px;
+	margin-left: 300px;
+	border-style: hidden;
+}
+
+.pass{
+	background-image: url(../images/header/login-menu.png);
+	background-repeat: no-repeat;
+	height: 37px;
+	margin-left: 300px;
+	border-style: hidden;
+}
+
+/*for manage teachers css*/
+.m_box-block {
+	background-color: #ffffff;
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	width: 250px;
+}
+
+
+.m_box-block:hover {
+	cursor: pointer;
+	/*background-color: #E0FFFF;*/
+	text-decoration: none;
+}
+
+/*for all popupdiv form*/
+.popupbg{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+
+.popupform{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	background:#FFFFFF;
+	border: 1px solid #cecece;
+	z-index:2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size:13px;
+}
+

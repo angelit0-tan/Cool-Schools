@@ -1,0 +1,45 @@
+.main-content-body{
+	position:absolute;
+	padding:10px;
+	height: auto;
+	margin-left: 1%;
+	margin-top: 235px;
+	width: 96.3%;
+	height: 70%;
+}
+.main-content-body_profile{
+	position:absolute;
+	padding: 2px;
+	height: auto;
+	margin-top: 235px;
+	width: 96.3%;
+	height: 70%;
+}
+
+.content-body_profile{
+	position: absolute;
+	padding: 2px;
+	height: auto;
+	width: 82.3%;
+	height: auto;
+	margin-left: 190px;
+}
+/*content area profile, main area for all history*/
+.content-area_profile{
+	padding: 4px;
+	height: auto;
+	width: 66%;
+	height: 50px;
+}
+
+.head-profile{
+	padding: 4px;
+	height: auto;
+	height: 50px;
+}
+.content-body{
+	float: right;
+	width: 654px;
+}
+
+
